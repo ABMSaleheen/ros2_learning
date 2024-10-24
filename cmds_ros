@@ -1,0 +1,17 @@
+--------------------- Using Python -------------------------
+create ros2_ws
+colcon build
+create pkg in ws/src =  ros2 pkg create rover --build-type ament_python --dependencies rclpy
+
+In setup.py - launch and urdf folders should be added using os.
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+
+        (os.path.join('share', package_name), glob('launch/*.py')),
+        (os.path.join('share', package_name), glob('urdf/*.py')),
+    ],
+    
+Before running a launch file need source: source ~/ros2_workspace/install/setup.bash
+
