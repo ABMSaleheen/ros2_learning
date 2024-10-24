@@ -273,94 +273,104 @@
 
 
 <!-- CAMERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
-    <gazebo reference="camera">
-        <sensor type="camera" name="camera1">
-        <update_rate>30.0</update_rate>
-        <camera name="head">
-            <horizontal_fov>1.3962634</horizontal_fov>
-            <image>
-            <width>800</width>
-            <height>800</height>
-            <format>R8G8B8</format>
-            </image>
-            <clip>
-            <near>0.02</near>
-            <far>300</far>
-            </clip>
-            <noise>
-            <type>gaussian</type>
-            <mean>0.0</mean>
-            <stddev>0.007</stddev>
-            </noise>
-        </camera>
-        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-            <alwaysOn>true</alwaysOn>
-            <!-- <updateRate>0.0</updateRate> -->
-            <cameraName>/camera</cameraName>
-            <imageTopicName>image_raw</imageTopicName>
-            <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-            <frameName>camera</frameName>
-            <hackBaseline>0.07</hackBaseline>
-        </plugin>
-        </sensor>
-        <material>Gazebo/Blue</material>
+<gazebo reference="camera">
+    <sensor type="camera" name="camera1">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <!-- <updateRate>0.0</updateRate> -->
+        <cameraName>/camera</cameraName>
+        <imageTopicName>image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera</frameName>
+        <hackBaseline>0.07</hackBaseline>
+      </plugin>
+    </sensor>
+    <material>Gazebo/Blue</material>
   </gazebo>
 
 
 <!-- LIDAAAAAAAAAAAAAAAAAAAAAAAAAAR -->
    <gazebo reference="lidar">
-        <sensor name="gazebo_lidar" type="ray">
-        <visualize>true</visualize>
-        <update_rate>12.0</update_rate>
-        <plugin filename="libgazebo_ros_ray_sensor.so" name="gazebo_lidar">
-        <ros>
-            <remapping>~/out:=scan</remapping>
-        </ros>
-        
-        <output_type>sensor_msgs/LaserScan</output_type>
-        <frame_name>lidar</frame_name>
-        </plugin>
+    <sensor name="gazebo_lidar" type="ray">
+      <visualize>true</visualize>
+      <update_rate>12.0</update_rate>
+      <plugin filename="libgazebo_ros_ray_sensor.so" name="gazebo_lidar">
+      <ros>
+        <remapping>~/out:=scan</remapping>
+      </ros>
+      
+      <output_type>sensor_msgs/LaserScan</output_type>
+      <frame_name>lidar</frame_name>
+      </plugin>
 
-        <ray>
-            <scan>
-            <horizontal>
-                <samples>360</samples>
-                <resolution>1</resolution>
-                <min_angle>0.00</min_angle>
-                <max_angle>3.14</max_angle>
-            </horizontal>
-            </scan>
-            <range>
-            <min>0.120</min>
-            <max>3.5</max>
-            <resolution>0.015</resolution>
-            </range>
-            <noise>
-            <type>gaussian</type>
-            <mean>0.0</mean>
-            <stddev>0.01</stddev>
-            </noise>
-        </ray>
-        </sensor>
-        <material>Gazebo/Orange</material>
-    </gazebo> 
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1</resolution>
+            <min_angle>0.00</min_angle>
+            <max_angle>3.14</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.120</min>
+          <max>3.5</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+    </sensor>
+    <material>Gazebo/DarkGrey</material>
+</gazebo> 
 
 
     <gazebo reference="wheel_back_right">
-        <material>Gazebo/Red</material>
+    <material>Gazebo/Red</material>
     </gazebo>
 
-    <gazebo reference="wheel_back_left">
-        <material>Gazebo/Red</material>
+    </gazebo> 
+    <gazebo reference="while_back_left">
+    <material>Gazebo/Red</material>
     </gazebo>
 
+    </gazebo> 
     <gazebo reference="wheel_front_right">
-        <material>Gazebo/Yellow</material>
+    <material>Gazebo/Red</material>
     </gazebo>
 
 
+    </gazebo> 
     <gazebo reference="wheel_front_left">
-        <material>Gazebo/Yellow</material>
+    <material>Gazebo/Red</material>
     </gazebo>
+
+    </gazebo> 
+    <gazebo reference="lidar">
+    <material>Gazebo/DarkGrey</material>
+    </gazebo>
+
+
 
 </robot>

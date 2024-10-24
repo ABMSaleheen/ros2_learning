@@ -1,0 +1,41 @@
+[0.411s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/rover': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rover build --build-base /home/saleheen_linux/others/ros_2_Learning/build/rover/build install --record /home/saleheen_linux/others/ros_2_Learning/build/rover/install.log --single-version-externally-managed install_data
+[0.574s] running egg_info
+[0.574s] creating ../../../build/rover/rover.egg-info
+[0.574s] writing ../../../build/rover/rover.egg-info/PKG-INFO
+[0.574s] writing dependency_links to ../../../build/rover/rover.egg-info/dependency_links.txt
+[0.575s] writing entry points to ../../../build/rover/rover.egg-info/entry_points.txt
+[0.575s] writing requirements to ../../../build/rover/rover.egg-info/requires.txt
+[0.575s] writing top-level names to ../../../build/rover/rover.egg-info/top_level.txt
+[0.575s] writing manifest file '../../../build/rover/rover.egg-info/SOURCES.txt'
+[0.576s] reading manifest file '../../../build/rover/rover.egg-info/SOURCES.txt'
+[0.576s] writing manifest file '../../../build/rover/rover.egg-info/SOURCES.txt'
+[0.576s] running build
+[0.576s] running build_py
+[0.576s] creating /home/saleheen_linux/others/ros_2_Learning/build/rover/build
+[0.576s] creating /home/saleheen_linux/others/ros_2_Learning/build/rover/build/lib
+[0.576s] creating /home/saleheen_linux/others/ros_2_Learning/build/rover/build/lib/rover
+[0.576s] copying rover/__init__.py -> /home/saleheen_linux/others/ros_2_Learning/build/rover/build/lib/rover
+[0.577s] running install
+[0.577s] running install_lib
+[0.577s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages/rover
+[0.577s] copying /home/saleheen_linux/others/ros_2_Learning/build/rover/build/lib/rover/__init__.py -> /home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages/rover
+[0.578s] byte-compiling /home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages/rover/__init__.py to __init__.cpython-310.pyc
+[0.578s] running install_data
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/ament_index
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/ament_index/resource_index
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/ament_index/resource_index/packages
+[0.578s] copying resource/rover -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/ament_index/resource_index/packages
+[0.578s] copying package.xml -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/launch
+[0.578s] copying launch/2_gazebo.launch.py -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/launch
+[0.578s] copying launch/1_rviz.launch.py -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/launch
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/worlds
+[0.578s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/urdf
+[0.578s] copying urdf/rover.urdf -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/urdf
+[0.578s] copying urdf/config.rviz -> /home/saleheen_linux/others/ros_2_Learning/install/rover/share/rover/urdf
+[0.579s] creating /home/saleheen_linux/others/ros_2_Learning/install/rover/lib/rover
+[0.579s] running install_egg_info
+[0.580s] Copying ../../../build/rover/rover.egg-info to /home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.580s] running install_scripts
+[0.595s] writing list of installed files to '/home/saleheen_linux/others/ros_2_Learning/build/rover/install.log'
+[0.610s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/rover' returned '0': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rover build --build-base /home/saleheen_linux/others/ros_2_Learning/build/rover/build install --record /home/saleheen_linux/others/ros_2_Learning/build/rover/install.log --single-version-externally-managed install_data
