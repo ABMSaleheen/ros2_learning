@@ -20,17 +20,17 @@ def generate_launch_description():
             output='screen',
             arguments=[urdf]),
         Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            name='joint_state_publisher_gui',
+            package='joint_state_publisher',
+            executable='joint_state_publisher', #'joint_state_publisher_gui'
+            name='joint_state_publisher',
             arguments=[urdf]),
 
-        Node(
-            package='rviz2',
-            executable='rviz2',
-            name='rviz2',
-            arguments=['-d',rviz_config_file],
-            output='screen'),
+        # Node(
+        #     package='rviz2',
+        #     executable='rviz2',
+        #     name='rviz2',
+        #     arguments=['-d',rviz_config_file],
+        #     output='screen'),
 
 
 
