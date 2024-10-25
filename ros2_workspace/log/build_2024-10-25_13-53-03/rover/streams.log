@@ -1,0 +1,24 @@
+[0.441s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/rover': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/install.log --single-version-externally-managed install_data
+[0.601s] running egg_info
+[0.601s] writing ../../build/rover/rover.egg-info/PKG-INFO
+[0.608s] writing dependency_links to ../../build/rover/rover.egg-info/dependency_links.txt
+[0.608s] writing entry points to ../../build/rover/rover.egg-info/entry_points.txt
+[0.608s] writing requirements to ../../build/rover/rover.egg-info/requires.txt
+[0.608s] writing top-level names to ../../build/rover/rover.egg-info/top_level.txt
+[0.609s] reading manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.610s] writing manifest file '../../build/rover/rover.egg-info/SOURCES.txt'
+[0.610s] running build
+[0.610s] running build_py
+[0.610s] copying rover/obstacle_avoiding.py -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/build/lib/rover
+[0.611s] running install
+[0.611s] running install_lib
+[0.611s] copying /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/build/lib/rover/obstacle_avoiding.py -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages/rover
+[0.612s] byte-compiling /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages/rover/obstacle_avoiding.py to obstacle_avoiding.cpython-310.pyc
+[0.612s] running install_data
+[0.612s] copying urdf/rover.urdf -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/share/rover/urdf
+[0.612s] running install_egg_info
+[0.614s] removing '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info' (and everything under it)
+[0.614s] Copying ../../build/rover/rover.egg-info to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages/rover-0.0.0-py3.10.egg-info
+[0.615s] running install_scripts
+[0.629s] writing list of installed files to '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/install.log'
+[0.645s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/rover' returned '0': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rover build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/rover/install.log --single-version-externally-managed install_data
