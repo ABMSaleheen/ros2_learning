@@ -10,7 +10,8 @@ def generate_launch_description():
     urdf = os.path.join(package_dir,'urdf', 'rover.urdf')   # urdf is saved here in install/share after build
     rviz_config_file=os.path.join(package_dir, 'urdf', 'config.rviz') # config.rviz is saved here in install/share after build
     # print("pkg rover location:",urdf)
-
+    world_file = 'blocks.sdf' # for right wall following
+    world_path = os.path.join(package_dir,'worlds', world_file) 
 
     return LaunchDescription([
         Node(
@@ -36,7 +37,7 @@ def generate_launch_description():
 
 
         ExecuteProcess(
-            cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
+            cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so', world_path],
             output='screen'
         ),
 

@@ -29,7 +29,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'obstacle_avoidance = rover.obstacle_avoiding:main'
+            'obstacle_avoidance = rover.obstacle_avoiding:main',
+            'wall_following = rover.follow_wall:main'
         ],
     },
 )

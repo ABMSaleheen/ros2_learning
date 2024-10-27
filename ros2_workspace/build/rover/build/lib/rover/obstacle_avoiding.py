@@ -11,7 +11,8 @@ class ObstacleAvoidingBot(Node):
         # publisher
         self.publisher = self.create_publisher(Twist, '/cmd_vel', 40)
         #periodic publisher call
-        timer_period = 0.2; self.timer = self.create_timer(timer_period, self.send_cmd_vel)
+        timer_period = 0.2 
+        self.timer = self.create_timer(timer_period, self.send_cmd_vel)
 
 
         #subscriber
@@ -37,6 +38,7 @@ class ObstacleAvoidingBot(Node):
             'mid': min(min(scan_data.ranges[120:240]), 100),
             'left': min(min(scan_data.ranges[240:360]), 100),
         }
+        # print(scan_data)
         print(self.regions['left'], "/", self.regions['mid'], "/", self.regions['right'])
 
 
@@ -45,6 +47,7 @@ class ObstacleAvoidingBot(Node):
         ## angular and linear velocities are set into object self.velcity
         ## setting the linear velocity to be fixed and robot will keep on moving
         self.velocity.linear.x=self.linear_vel
+        
         ## cases to make the robot change its angular velocity
         if(self.regions['left'] > 4  and self.regions['mid'] > 4   and self.regions['right'] > 4 ):
             self.velocity.angular.z=0.0 # condition in which area is total clear
