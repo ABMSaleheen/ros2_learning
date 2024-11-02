@@ -723,5 +723,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/rover_cpp_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/linear_velocity_publisher.dir/DependInfo.cmake"
   "CMakeFiles/obs_avoidance_node.dir/DependInfo.cmake"
-  "CMakeFiles/follow_wall_node.dir/DependInfo.cmake"
+  "CMakeFiles/follow_path_node.dir/DependInfo.cmake"
   )

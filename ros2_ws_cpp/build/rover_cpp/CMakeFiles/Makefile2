@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/
 # The main recursive "all" target.
 all: CMakeFiles/linear_velocity_publisher.dir/all
 all: CMakeFiles/obs_avoidance_node.dir/all
-all: CMakeFiles/follow_wall_node.dir/all
+all: CMakeFiles/follow_path_node.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -77,7 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/rover_cpp_uninstall.dir/clean
 clean: CMakeFiles/linear_velocity_publisher.dir/clean
 clean: CMakeFiles/obs_avoidance_node.dir/clean
-clean: CMakeFiles/follow_wall_node.dir/clean
+clean: CMakeFiles/follow_path_node.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -185,30 +185,30 @@ CMakeFiles/obs_avoidance_node.dir/clean:
 .PHONY : CMakeFiles/obs_avoidance_node.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/follow_wall_node.dir
+# Target rules for target CMakeFiles/follow_path_node.dir
 
 # All Build rule for target.
-CMakeFiles/follow_wall_node.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp/CMakeFiles --progress-num=1,2 "Built target follow_wall_node"
-.PHONY : CMakeFiles/follow_wall_node.dir/all
+CMakeFiles/follow_path_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp/CMakeFiles --progress-num=1,2 "Built target follow_path_node"
+.PHONY : CMakeFiles/follow_path_node.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/follow_wall_node.dir/rule: cmake_check_build_system
+CMakeFiles/follow_path_node.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/follow_wall_node.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/follow_path_node.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp/CMakeFiles 0
-.PHONY : CMakeFiles/follow_wall_node.dir/rule
+.PHONY : CMakeFiles/follow_path_node.dir/rule
 
 # Convenience name for target.
-follow_wall_node: CMakeFiles/follow_wall_node.dir/rule
-.PHONY : follow_wall_node
+follow_path_node: CMakeFiles/follow_path_node.dir/rule
+.PHONY : follow_path_node
 
 # clean rule for target.
-CMakeFiles/follow_wall_node.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/clean
-.PHONY : CMakeFiles/follow_wall_node.dir/clean
+CMakeFiles/follow_path_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/clean
+.PHONY : CMakeFiles/follow_path_node.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

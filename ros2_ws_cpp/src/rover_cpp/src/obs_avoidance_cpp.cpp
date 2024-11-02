@@ -48,7 +48,7 @@ private:
         //                                         section_size, 2* section_size, 3*section_size);
 
 
-        std::vector<float> right_lidar_section(msg_lidar->ranges.begin(), msg_lidar->ranges.begin()+section_size);
+        std::vector<float> right_lidar_section(msg_lidar->ranges.begin(), msg_lidar->ranges.begin()+section_size); // 0:120
         std::vector<float> mid_lidar_section(msg_lidar->ranges.begin()+section_size, msg_lidar->ranges.begin()+2*section_size);
         std::vector<float> left_lidar_section(msg_lidar->ranges.begin()+2*section_size, msg_lidar->ranges.end());
 

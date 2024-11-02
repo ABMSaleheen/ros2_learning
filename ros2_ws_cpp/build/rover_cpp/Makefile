@@ -224,41 +224,41 @@ obs_avoidance_node/fast:
 .PHONY : obs_avoidance_node/fast
 
 #=============================================================================
-# Target rules for targets named follow_wall_node
+# Target rules for targets named follow_path_node
 
 # Build rule for target.
-follow_wall_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follow_wall_node
-.PHONY : follow_wall_node
+follow_path_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 follow_path_node
+.PHONY : follow_path_node
 
 # fast build rule for target.
-follow_wall_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/build
-.PHONY : follow_wall_node/fast
+follow_path_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/build
+.PHONY : follow_path_node/fast
 
-src/follow_wall_cpp.o: src/follow_wall_cpp.cpp.o
-.PHONY : src/follow_wall_cpp.o
+src/follow_path_cpp.o: src/follow_path_cpp.cpp.o
+.PHONY : src/follow_path_cpp.o
 
 # target to build an object file
-src/follow_wall_cpp.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/src/follow_wall_cpp.cpp.o
-.PHONY : src/follow_wall_cpp.cpp.o
+src/follow_path_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o
+.PHONY : src/follow_path_cpp.cpp.o
 
-src/follow_wall_cpp.i: src/follow_wall_cpp.cpp.i
-.PHONY : src/follow_wall_cpp.i
+src/follow_path_cpp.i: src/follow_path_cpp.cpp.i
+.PHONY : src/follow_path_cpp.i
 
 # target to preprocess a source file
-src/follow_wall_cpp.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/src/follow_wall_cpp.cpp.i
-.PHONY : src/follow_wall_cpp.cpp.i
+src/follow_path_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.i
+.PHONY : src/follow_path_cpp.cpp.i
 
-src/follow_wall_cpp.s: src/follow_wall_cpp.cpp.s
-.PHONY : src/follow_wall_cpp.s
+src/follow_path_cpp.s: src/follow_path_cpp.cpp.s
+.PHONY : src/follow_path_cpp.s
 
 # target to generate assembly for a file
-src/follow_wall_cpp.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_wall_node.dir/build.make CMakeFiles/follow_wall_node.dir/src/follow_wall_cpp.cpp.s
-.PHONY : src/follow_wall_cpp.cpp.s
+src/follow_path_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/follow_path_node.dir/build.make CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.s
+.PHONY : src/follow_path_cpp.cpp.s
 
 src/linear_velocity_publisher.o: src/linear_velocity_publisher.cpp.o
 .PHONY : src/linear_velocity_publisher.o
@@ -323,12 +323,12 @@ help:
 	@echo "... test"
 	@echo "... rover_cpp_uninstall"
 	@echo "... uninstall"
-	@echo "... follow_wall_node"
+	@echo "... follow_path_node"
 	@echo "... linear_velocity_publisher"
 	@echo "... obs_avoidance_node"
-	@echo "... src/follow_wall_cpp.o"
-	@echo "... src/follow_wall_cpp.i"
-	@echo "... src/follow_wall_cpp.s"
+	@echo "... src/follow_path_cpp.o"
+	@echo "... src/follow_path_cpp.i"
+	@echo "... src/follow_path_cpp.s"
 	@echo "... src/linear_velocity_publisher.o"
 	@echo "... src/linear_velocity_publisher.i"
 	@echo "... src/linear_velocity_publisher.s"

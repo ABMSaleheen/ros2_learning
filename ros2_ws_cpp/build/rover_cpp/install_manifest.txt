@@ -1,5 +1,5 @@
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/obs_avoidance_node
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_wall_node
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_path_node
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/linear_velocity_publisher
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/follow_wall_cpp.hpp
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/obs_avoidance_cpp.hpp

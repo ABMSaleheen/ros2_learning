@@ -1,0 +1,271 @@
+[0.000000] (-) TimerEvent: {}
+[0.000329] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000367] (rover_cpp) JobQueued: {'identifier': 'rover_cpp', 'dependencies': OrderedDict()}
+[0.000910] (rover_cpp) JobStarted: {'identifier': 'rover_cpp'}
+[0.009161] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'cmake'}
+[0.009575] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'build'}
+[0.010033] (rover_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', '--', '-j16', '-l16'], 'cwd': '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saleheen_linux'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/saleheen_linux'), ('OLDPWD', '/home/saleheen_linux/others/ros_2_Learning'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '39476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/saleheen_linux/.nvm'), ('COLCON_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saleheen_linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saleheen_linux'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':home/saleheen_linux/others/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/saleheen_linux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saleheen_linux/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/saleheen-ROG-Linux:@/tmp/.ICE-unix/2795,unix/saleheen-ROG-Linux:/tmp/.ICE-unix/2795'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/586f9921_f230_4d0a_8703_c1eec84e3dce'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', ':/usr/share/gazebo-11'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble')]), 'shell': False}
+[0.052143] (rover_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099682] (-) TimerEvent: {}
+[0.163748] (rover_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.197994] (rover_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.199753] (-) TimerEvent: {}
+[0.200828] (rover_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.207270] (rover_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.218678] (rover_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.230592] (rover_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.263326] (rover_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.265179] (rover_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299873] (-) TimerEvent: {}
+[0.368147] (rover_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400074] (-) TimerEvent: {}
+[0.420479] (rover_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.432731] (rover_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.448308] (rover_cpp) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.462771] (rover_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500156] (-) TimerEvent: {}
+[0.529628] (rover_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.529847] (rover_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/include\n'}
+[0.529947] (rover_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.530333] (rover_cpp) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.530998] (rover_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.531490] (rover_cpp) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.533352] (rover_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.533427] (rover_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.533855] (rover_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.534644] (rover_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.548976] (rover_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.550534] (rover_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp\n'}
+[0.576762] (rover_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target linear_velocity_publisher\x1b[0m\n'}
+[0.577091] (rover_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obs_avoidance_node\x1b[0m\n'}
+[0.586238] (rover_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o\x1b[0m\n'}
+[0.600275] (-) TimerEvent: {}
+[0.609577] (rover_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/linear_velocity_publisher.dir/src/linear_velocity_publisher.cpp.o\x1b[0m\n'}
+[0.609813] (rover_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obs_avoidance_node.dir/src/obs_avoidance_cpp.cpp.o\x1b[0m\n'}
+[0.700399] (-) TimerEvent: {}
+[0.800837] (-) TimerEvent: {}
+[0.901258] (-) TimerEvent: {}
+[1.001584] (-) TimerEvent: {}
+[1.102004] (-) TimerEvent: {}
+[1.202372] (-) TimerEvent: {}
+[1.302706] (-) TimerEvent: {}
+[1.403029] (-) TimerEvent: {}
+[1.503328] (-) TimerEvent: {}
+[1.603602] (-) TimerEvent: {}
+[1.703939] (-) TimerEvent: {}
+[1.804302] (-) TimerEvent: {}
+[1.904662] (-) TimerEvent: {}
+[2.005094] (-) TimerEvent: {}
+[2.105373] (-) TimerEvent: {}
+[2.205642] (-) TimerEvent: {}
+[2.305990] (-) TimerEvent: {}
+[2.406309] (-) TimerEvent: {}
+[2.506599] (-) TimerEvent: {}
+[2.606876] (-) TimerEvent: {}
+[2.707190] (-) TimerEvent: {}
+[2.748686] (rover_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.749004] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.749178] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.749246] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.749293] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.749334] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.749382] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.749422] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.749466] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.749516] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.749557] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.749611] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:4\x1b[m\x1b[K:\n'}
+[2.749657] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid FollowPathNode::sub_lidar_calllback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.749701] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.749752] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"----Left Sect: %d || Mid Sect: %d || RightSect: %d ----"\x1b[m\x1b[K,\n'}
+[2.749791] (rover_cpp) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749830] (rover_cpp) StderrLine: {'line': b'   58 |                                                 \x1b[32m\x1b[Ksection_size\x1b[m\x1b[K, 2* section_size, 3*section_size);\n'}
+[2.749868] (rover_cpp) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.749907] (rover_cpp) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.749944] (rover_cpp) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[2.750009] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.750055] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), "----Left Sect: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K || Mid Sect: %d || RightSect: %d ----",\n'}
+[2.750101] (rover_cpp) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.750141] (rover_cpp) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.750179] (rover_cpp) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.750217] (rover_cpp) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.750255] (rover_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.750297] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.750337] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.750383] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.750420] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.750458] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.750495] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.750532] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.750569] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.750605] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.750641] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.750683] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:4\x1b[m\x1b[K:\n'}
+[2.750721] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.750763] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"----Left Sect: %d || Mid Sect: %d || RightSect: %d ----"\x1b[m\x1b[K,\n'}
+[2.750805] (rover_cpp) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750844] (rover_cpp) StderrLine: {'line': b'   58 |                                                 section_size, \x1b[32m\x1b[K2* section_size\x1b[m\x1b[K, 3*section_size);\n'}
+[2.750888] (rover_cpp) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.750926] (rover_cpp) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.750978] (rover_cpp) StderrLine: {'line': b'      |                                                                \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[2.751034] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.751075] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), "----Left Sect: %d || Mid Sect: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K || RightSect: %d ----",\n'}
+[2.751112] (rover_cpp) StderrLine: {'line': b'      |                                                                         \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.751167] (rover_cpp) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.751237] (rover_cpp) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.751282] (rover_cpp) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.751336] (rover_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.751378] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.751417] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.751456] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.751493] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.751531] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.751569] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.751608] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.751656] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.751696] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.751734] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.751786] (rover_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:4\x1b[m\x1b[K:\n'}
+[2.751843] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.751901] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"----Left Sect: %d || Mid Sect: %d || RightSect: %d ----"\x1b[m\x1b[K,\n'}
+[2.751972] (rover_cpp) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.752040] (rover_cpp) StderrLine: {'line': b'   58 |                                                 section_size, 2* section_size, \x1b[32m\x1b[K3*section_size\x1b[m\x1b[K);\n'}
+[2.752104] (rover_cpp) StderrLine: {'line': b'      |                                                                                \x1b[32m\x1b[K~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.752148] (rover_cpp) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.752195] (rover_cpp) StderrLine: {'line': b'      |                                                                                 \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[2.752236] (rover_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:57:91:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.752274] (rover_cpp) StderrLine: {'line': b'   57 |         RCLCPP_INFO(this->get_logger(), "----Left Sect: %d || Mid Sect: %d || RightSect: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K ----",\n'}
+[2.752325] (rover_cpp) StderrLine: {'line': b'      |                                                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.752368] (rover_cpp) StderrLine: {'line': b'      |                                                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.752407] (rover_cpp) StderrLine: {'line': b'      |                                                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.752445] (rover_cpp) StderrLine: {'line': b'      |                                                                                          \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[2.807362] (-) TimerEvent: {}
+[2.907781] (-) TimerEvent: {}
+[3.008032] (-) TimerEvent: {}
+[3.108380] (-) TimerEvent: {}
+[3.208757] (-) TimerEvent: {}
+[3.309081] (-) TimerEvent: {}
+[3.409400] (-) TimerEvent: {}
+[3.509848] (-) TimerEvent: {}
+[3.610215] (-) TimerEvent: {}
+[3.710554] (-) TimerEvent: {}
+[3.810853] (-) TimerEvent: {}
+[3.911217] (-) TimerEvent: {}
+[4.011562] (-) TimerEvent: {}
+[4.111845] (-) TimerEvent: {}
+[4.212175] (-) TimerEvent: {}
+[4.312464] (-) TimerEvent: {}
+[4.412774] (-) TimerEvent: {}
+[4.513027] (-) TimerEvent: {}
+[4.613299] (-) TimerEvent: {}
+[4.713553] (-) TimerEvent: {}
+[4.813824] (-) TimerEvent: {}
+[4.914113] (-) TimerEvent: {}
+[5.014396] (-) TimerEvent: {}
+[5.114657] (-) TimerEvent: {}
+[5.214973] (-) TimerEvent: {}
+[5.315291] (-) TimerEvent: {}
+[5.415536] (-) TimerEvent: {}
+[5.515819] (-) TimerEvent: {}
+[5.616129] (-) TimerEvent: {}
+[5.716453] (-) TimerEvent: {}
+[5.816776] (-) TimerEvent: {}
+[5.917221] (-) TimerEvent: {}
+[6.017738] (-) TimerEvent: {}
+[6.118303] (-) TimerEvent: {}
+[6.218630] (-) TimerEvent: {}
+[6.318975] (-) TimerEvent: {}
+[6.419306] (-) TimerEvent: {}
+[6.519696] (-) TimerEvent: {}
+[6.619986] (-) TimerEvent: {}
+[6.720244] (-) TimerEvent: {}
+[6.820575] (-) TimerEvent: {}
+[6.920856] (-) TimerEvent: {}
+[7.021129] (-) TimerEvent: {}
+[7.121409] (-) TimerEvent: {}
+[7.221713] (-) TimerEvent: {}
+[7.321990] (-) TimerEvent: {}
+[7.422279] (-) TimerEvent: {}
+[7.522740] (-) TimerEvent: {}
+[7.623124] (-) TimerEvent: {}
+[7.723462] (-) TimerEvent: {}
+[7.823779] (-) TimerEvent: {}
+[7.924223] (-) TimerEvent: {}
+[8.024645] (-) TimerEvent: {}
+[8.124919] (-) TimerEvent: {}
+[8.225255] (-) TimerEvent: {}
+[8.325546] (-) TimerEvent: {}
+[8.425792] (-) TimerEvent: {}
+[8.526037] (-) TimerEvent: {}
+[8.584147] (rover_cpp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable linear_velocity_publisher\x1b[0m\n'}
+[8.626228] (-) TimerEvent: {}
+[8.726666] (-) TimerEvent: {}
+[8.826967] (-) TimerEvent: {}
+[8.927243] (-) TimerEvent: {}
+[8.938201] (rover_cpp) StdoutLine: {'line': b'[ 66%] Built target linear_velocity_publisher\n'}
+[9.027344] (-) TimerEvent: {}
+[9.127597] (-) TimerEvent: {}
+[9.227854] (-) TimerEvent: {}
+[9.328164] (-) TimerEvent: {}
+[9.428495] (-) TimerEvent: {}
+[9.528747] (-) TimerEvent: {}
+[9.629012] (-) TimerEvent: {}
+[9.729346] (-) TimerEvent: {}
+[9.829746] (-) TimerEvent: {}
+[9.930013] (-) TimerEvent: {}
+[10.030305] (-) TimerEvent: {}
+[10.130615] (-) TimerEvent: {}
+[10.230905] (-) TimerEvent: {}
+[10.331159] (-) TimerEvent: {}
+[10.416941] (rover_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable follow_path_node\x1b[0m\n'}
+[10.431267] (-) TimerEvent: {}
+[10.531517] (-) TimerEvent: {}
+[10.631770] (-) TimerEvent: {}
+[10.732022] (-) TimerEvent: {}
+[10.771127] (rover_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable obs_avoidance_node\x1b[0m\n'}
+[10.832127] (-) TimerEvent: {}
+[10.891602] (rover_cpp) StdoutLine: {'line': b'[100%] Built target follow_path_node\n'}
+[10.932233] (-) TimerEvent: {}
+[11.032480] (-) TimerEvent: {}
+[11.132733] (-) TimerEvent: {}
+[11.197856] (rover_cpp) StdoutLine: {'line': b'[100%] Built target obs_avoidance_node\n'}
+[11.209215] (rover_cpp) CommandEnded: {'returncode': 0}
+[11.232820] (-) TimerEvent: {}
+[11.238056] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'install'}
+[11.246310] (rover_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'], 'cwd': '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saleheen_linux'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/saleheen_linux'), ('OLDPWD', '/home/saleheen_linux/others/ros_2_Learning'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '39476'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/saleheen_linux/.nvm'), ('COLCON_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saleheen_linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saleheen_linux'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':home/saleheen_linux/others/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/saleheen_linux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saleheen_linux/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/saleheen-ROG-Linux:@/tmp/.ICE-unix/2795,unix/saleheen-ROG-Linux:/tmp/.ICE-unix/2795'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/586f9921_f230_4d0a_8703_c1eec84e3dce'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', ':/usr/share/gazebo-11'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble')]), 'shell': False}
+[11.254502] (rover_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.254703] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/obs_avoidance_node\n'}
+[11.259611] (rover_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/obs_avoidance_node" to ""\n'}
+[11.259748] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_path_node\n'}
+[11.265055] (rover_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_path_node" to ""\n'}
+[11.265198] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/linear_velocity_publisher\n'}
+[11.269076] (rover_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/linear_velocity_publisher" to ""\n'}
+[11.269191] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp\n'}
+[11.269250] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/follow_wall_cpp.hpp\n'}
+[11.269330] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/obs_avoidance_cpp.hpp\n'}
+[11.269378] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/package_run_dependencies/rover_cpp\n'}
+[11.269423] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/parent_prefix_path/rover_cpp\n'}
+[11.269498] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/ament_prefix_path.sh\n'}
+[11.269550] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/ament_prefix_path.dsv\n'}
+[11.269621] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/path.sh\n'}
+[11.269737] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/path.dsv\n'}
+[11.269876] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.bash\n'}
+[11.269974] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.sh\n'}
+[11.270031] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.zsh\n'}
+[11.270080] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.dsv\n'}
+[11.270142] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/package.dsv\n'}
+[11.270287] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/packages/rover_cpp\n'}
+[11.270346] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig.cmake\n'}
+[11.270411] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig-version.cmake\n'}
+[11.270468] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/package.xml\n'}
+[11.270529] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf\n'}
+[11.270585] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/rover_cpp.urdf\n'}
+[11.270628] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/config.rviz\n'}
+[11.270670] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds\n'}
+[11.270712] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds/blocks.sdf\n'}
+[11.270793] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch\n'}
+[11.270836] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/2_gazebo.launch.py\n'}
+[11.270875] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/1_rviz.launch.py\n'}
+[11.272450] (rover_cpp) CommandEnded: {'returncode': 0}
+[11.317201] (rover_cpp) JobEnded: {'identifier': 'rover_cpp', 'rc': 0}
+[11.317916] (-) EventReactorShutdown: {}
