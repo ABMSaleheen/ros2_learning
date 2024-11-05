@@ -1,0 +1,36 @@
+[0.009s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target follow_path_node[0m
+[0.058s] [ 66%] Built target obs_avoidance_node
+[0.058s] [ 66%] Built target linear_velocity_publisher
+[0.060s] [ 83%] [32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o[0m
+[1.756s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:97:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kvoid FollowPathNode::proportional_controller(float, float, float, std::string)[m[K’
+[1.756s]   113 |     void proportional_controller(float wall_proximity, float kp=1.0, float kd= 1.0, [01;31m[Kstd::string side[m[K){
+[1.756s]       |                                                                                     [01;31m[K~~~~~~~~~~~~^~~~[m[K
+[1.756s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:62:[m[K [01;36m[Knote: [m[K...following parameter 2 which has a default argument
+[1.756s]   113 |     void proportional_controller(float wall_proximity, [01;36m[Kfloat kp=1.0[m[K, float kd= 1.0, std::string side){
+[1.756s]       |                                                        [01;36m[K~~~~~~^~~~~~[m[K
+[1.773s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.773s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.773s]                  from [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:5[m[K:
+[1.773s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:[m[K In member function ‘[01m[Kvoid FollowPathNode::proportional_controller(float, float, float, std::string)[m[K’:
+[1.773s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:116:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%c[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.773s]   116 |         RCLCPP_WARN(this->get_logger(), [01;35m[K"Following %c Wall"[m[K, side);
+[1.773s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.773s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:116:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.773s]   116 |         RCLCPP_WARN(this->get_logger(), "Following [01;36m[K%c[m[K Wall", side);
+[1.773s]       |                                                    [01;36m[K~^[m[K
+[1.773s]       |                                                     [01;36m[K|[m[K
+[1.773s]       |                                                     [01;36m[Kint[m[K
+[4.121s] gmake[2]: *** [CMakeFiles/follow_path_node.dir/build.make:76: CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o] Error 1
+[4.121s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/follow_path_node.dir/all] Error 2
+[4.122s] gmake: *** [Makefile:146: all] Error 2
+[4.124s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16

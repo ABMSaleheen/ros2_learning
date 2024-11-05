@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../gazebo_models"
+		},
+		{
+			"path": "ros2_workspace/src/prius_line_following"
+		},
+		{
+			"path": "ros2_workspace/src/rover"
+		}
+	],
+	"settings": {
+		"xml.downloadExternalResources.enabled": true,
+		"ros.distro": "humble"
+	}
+}

@@ -1,0 +1,19 @@
+[0.009s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target follow_path_node[0m
+[0.056s] [ 33%] Built target obs_avoidance_node
+[0.056s] [ 66%] Built target linear_velocity_publisher
+[0.058s] [ 83%] [32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o[0m
+[1.929s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:[m[K In member function ‘[01m[Kvoid FollowPathNode::proportional_controller(float, std::string, float, float)[m[K’:
+[1.930s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:136:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+[1.930s]   136 |         [01;31m[Kif[m[K(side == "Right"){
+[1.930s]       |         [01;31m[K^~[m[K
+[1.930s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:121:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksetpoint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.930s]   121 |         float [01;35m[Ksetpoint[m[K = 1.2f;
+[1.930s]       |               [01;35m[K^~~~~~~~[m[K
+[1.930s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:116:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwall_proximity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.930s]   116 |     void proportional_controller([01;35m[Kfloat wall_proximity[m[K, std::string side, float kp=1.0, float kd= 1.0){
+[1.930s]       |                                  [01;35m[K~~~~~~^~~~~~~~~~~~~~[m[K
+[4.442s] gmake[2]: *** [CMakeFiles/follow_path_node.dir/build.make:76: CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o] Error 1
+[4.442s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/follow_path_node.dir/all] Error 2
+[4.442s] gmake: *** [Makefile:146: all] Error 2
+[4.445s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16

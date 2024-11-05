@@ -34,7 +34,7 @@ private:
 
     float fwd_spd = 0.0f;
     float right_proximity = 0.0f;
-    float mid_proximity =  0.0f;
+    float left_mid_proximity =  0.0f;
     float left_proximity = 0.0f;
 
     void sub_lidar_calllback(const sensor_msgs::msg::LaserScan::SharedPtr msg_lidar){
@@ -53,7 +53,7 @@ private:
         std::vector<float> left_lidar_section(msg_lidar->ranges.begin()+2*section_size, msg_lidar->ranges.end());
 
         right_proximity = std::min(*std::min_element(right_lidar_section.begin(),right_lidar_section.end()), 100.0f);
-        mid_proximity = std::min(*std::min_element(mid_lidar_section.begin(), mid_lidar_section.end()), 100.0f);
+        left_mid_proximity = std::min(*std::min_element(mid_lidar_section.begin(), mid_lidar_section.end()), 100.0f);
         left_proximity = std::min(*std::min_element(left_lidar_section.begin(), left_lidar_section.end()), 100.0f);
 
         
@@ -79,22 +79,22 @@ private:
         auto msg_vel= geometry_msgs::msg::Twist();
         msg_vel.linear.x = 0.75;
         RCLCPP_WARN(this->get_logger(), "-----Current Linear Velocity----- : %0.2f", current_vel_x);
-        RCLCPP_INFO(this->get_logger(), "Left : %.2f || Mid: %.2f || Right: %.2f", left_proximity, mid_proximity, right_proximity);
+        RCLCPP_INFO(this->get_logger(), "Left : %.2f || Mid: %.2f || Right: %.2f", left_proximity, left_mid_proximity, right_proximity);
 
-        if (left_proximity> obs_dist_limit && mid_proximity > obs_dist_limit && right_proximity > obs_dist_limit){
+        if (left_proximity> obs_dist_limit && left_mid_proximity > obs_dist_limit && right_proximity > obs_dist_limit){
             msg_vel.angular.z = 0.0;
             msg_vel.linear.x = 1.0;
             RCLCPP_INFO(this->get_logger(), "Going Straight");
         }
 
-        if (left_proximity> obs_dist_limit && mid_proximity > obs_dist_limit && right_proximity < obs_dist_limit){
+        if (left_proximity> obs_dist_limit && left_mid_proximity > obs_dist_limit && right_proximity < obs_dist_limit){
 
             msg_vel.angular.z = 1.2;
             RCLCPP_INFO(this->get_logger(), "Turning Left");
 
         }
 
-        if (left_proximity< obs_dist_limit && mid_proximity > obs_dist_limit && right_proximity > obs_dist_limit){
+        if (left_proximity< obs_dist_limit && left_mid_proximity > obs_dist_limit && right_proximity > obs_dist_limit){
 
             msg_vel.angular.z = -1.2;
             RCLCPP_INFO(this->get_logger(), "Turning Right");
@@ -102,10 +102,10 @@ private:
         }
 
         // if ((left_proximity< obs_dist_limit && right_proximity < obs_dist_limit) || mid_proximity < 1.7f )
-        if (left_proximity< obs_dist_limit*1.4 && mid_proximity < obs_dist_limit) {msg_vel.angular.z = -1.10;}
-        if (right_proximity< obs_dist_limit*1.4 && mid_proximity < obs_dist_limit) {msg_vel.angular.z = 1.10;}
+        if (left_proximity< obs_dist_limit*1.4 && left_mid_proximity < obs_dist_limit) {msg_vel.angular.z = -1.10;}
+        if (right_proximity< obs_dist_limit*1.4 && left_mid_proximity < obs_dist_limit) {msg_vel.angular.z = 1.10;}
 
-        if(mid_proximity < obs_dist_limit )
+        if(left_mid_proximity < obs_dist_limit )
         {
             // msg_vel.angular.z = 1.0;
             msg_vel.linear.x = 0.5;

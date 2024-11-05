@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target follow_path_node[0m
+[ 66%] Built target obs_avoidance_node
+[ 66%] Built target linear_velocity_publisher
+[ 83%] [32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o[0m

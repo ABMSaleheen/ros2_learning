@@ -1,0 +1,15 @@
+[0.008s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target follow_path_node[0m
+[0.057s] [ 66%] Built target obs_avoidance_node
+[0.057s] [ 66%] Built target linear_velocity_publisher
+[0.059s] [ 83%] [32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o[0m
+[1.761s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:97:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kvoid FollowPathNode::proportional_controller(float, float, float, std::string)[m[K’
+[1.761s]   113 |     void proportional_controller(float wall_proximity, float kp=1.0, float kd= 1.0, [01;31m[Kstd::string side[m[K){
+[1.761s]       |                                                                                     [01;31m[K~~~~~~~~~~~~^~~~[m[K
+[1.762s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:62:[m[K [01;36m[Knote: [m[K...following parameter 2 which has a default argument
+[1.762s]   113 |     void proportional_controller(float wall_proximity, [01;36m[Kfloat kp=1.0[m[K, float kd= 1.0, std::string side){
+[1.762s]       |                                                        [01;36m[K~~~~~~^~~~~~[m[K
+[4.305s] gmake[2]: *** [CMakeFiles/follow_path_node.dir/build.make:76: CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o] Error 1
+[4.306s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/follow_path_node.dir/all] Error 2
+[4.306s] gmake: *** [Makefile:146: all] Error 2
+[4.308s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp -- -j16 -l16

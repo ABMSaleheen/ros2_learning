@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000520] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000559] (rover_cpp) JobQueued: {'identifier': 'rover_cpp', 'dependencies': OrderedDict()}
+[0.000584] (rover_cpp) JobStarted: {'identifier': 'rover_cpp'}
+[0.007285] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'cmake'}
+[0.007667] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'build'}
+[0.008210] (rover_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', '--', '-j16', '-l16'], 'cwd': '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saleheen_linux'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/saleheen_linux'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '5641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/saleheen_linux/.nvm'), ('COLCON_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saleheen_linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saleheen_linux'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':home/saleheen_linux/others/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/saleheen_linux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saleheen_linux/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/saleheen-ROG-Linux:@/tmp/.ICE-unix/2759,unix/saleheen-ROG-Linux:/tmp/.ICE-unix/2759'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69a10a75_4fe7_4ec6_97cf_02fd79b516b8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', ':/usr/share/gazebo-11'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble')]), 'shell': False}
+[0.051742] (rover_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_path_node\x1b[0m\n'}
+[0.063632] (rover_cpp) StdoutLine: {'line': b'[ 33%] Built target obs_avoidance_node\n'}
+[0.063846] (rover_cpp) StdoutLine: {'line': b'[ 66%] Built target linear_velocity_publisher\n'}
+[0.067881] (rover_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o\x1b[0m\n'}
+[0.099639] (-) TimerEvent: {}
+[0.199882] (-) TimerEvent: {}
+[0.300143] (-) TimerEvent: {}
+[0.400410] (-) TimerEvent: {}
+[0.500686] (-) TimerEvent: {}
+[0.600981] (-) TimerEvent: {}
+[0.701246] (-) TimerEvent: {}
+[0.801504] (-) TimerEvent: {}
+[0.901775] (-) TimerEvent: {}
+[1.002027] (-) TimerEvent: {}
+[1.102278] (-) TimerEvent: {}
+[1.202530] (-) TimerEvent: {}
+[1.302793] (-) TimerEvent: {}
+[1.403038] (-) TimerEvent: {}
+[1.503285] (-) TimerEvent: {}
+[1.603532] (-) TimerEvent: {}
+[1.703781] (-) TimerEvent: {}
+[1.804049] (-) TimerEvent: {}
+[1.904333] (-) TimerEvent: {}
+[2.004636] (-) TimerEvent: {}
+[2.104892] (-) TimerEvent: {}
+[2.205159] (-) TimerEvent: {}
+[2.305415] (-) TimerEvent: {}
+[2.405669] (-) TimerEvent: {}
+[2.505913] (-) TimerEvent: {}
+[2.606161] (-) TimerEvent: {}
+[2.706410] (-) TimerEvent: {}
+[2.806676] (-) TimerEvent: {}
+[2.906928] (-) TimerEvent: {}
+[3.007186] (-) TimerEvent: {}
+[3.107428] (-) TimerEvent: {}
+[3.207672] (-) TimerEvent: {}
+[3.307974] (-) TimerEvent: {}
+[3.408333] (-) TimerEvent: {}
+[3.508582] (-) TimerEvent: {}
+[3.608843] (-) TimerEvent: {}
+[3.709094] (-) TimerEvent: {}
+[3.809342] (-) TimerEvent: {}
+[3.909599] (-) TimerEvent: {}
+[4.009863] (-) TimerEvent: {}
+[4.110110] (-) TimerEvent: {}
+[4.210362] (-) TimerEvent: {}
+[4.310626] (-) TimerEvent: {}
+[4.410962] (-) TimerEvent: {}
+[4.511360] (-) TimerEvent: {}
+[4.611637] (-) TimerEvent: {}
+[4.711879] (-) TimerEvent: {}
+[4.812124] (-) TimerEvent: {}
+[4.912366] (-) TimerEvent: {}
+[5.012609] (-) TimerEvent: {}
+[5.112860] (-) TimerEvent: {}
+[5.213120] (-) TimerEvent: {}
+[5.313413] (-) TimerEvent: {}
+[5.413667] (-) TimerEvent: {}
+[5.513907] (-) TimerEvent: {}
+[5.614154] (-) TimerEvent: {}
+[5.714403] (-) TimerEvent: {}
+[5.814653] (-) TimerEvent: {}
+[5.914901] (-) TimerEvent: {}
+[6.015235] (-) TimerEvent: {}
+[6.115592] (-) TimerEvent: {}
+[6.215852] (-) TimerEvent: {}
+[6.316124] (-) TimerEvent: {}
+[6.416430] (-) TimerEvent: {}
+[6.516669] (-) TimerEvent: {}
+[6.616912] (-) TimerEvent: {}
+[6.717189] (-) TimerEvent: {}
+[6.817466] (-) TimerEvent: {}
+[6.917724] (-) TimerEvent: {}
+[7.017981] (-) TimerEvent: {}
+[7.118253] (-) TimerEvent: {}
+[7.218538] (-) TimerEvent: {}
+[7.318806] (-) TimerEvent: {}
+[7.419066] (-) TimerEvent: {}
+[7.519320] (-) TimerEvent: {}
+[7.619583] (-) TimerEvent: {}
+[7.719841] (-) TimerEvent: {}
+[7.820093] (-) TimerEvent: {}
+[7.920379] (-) TimerEvent: {}
+[8.020639] (-) TimerEvent: {}
+[8.120911] (-) TimerEvent: {}
+[8.221213] (-) TimerEvent: {}
+[8.321516] (-) TimerEvent: {}
+[8.353708] (rover_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable follow_path_node\x1b[0m\n'}
+[8.421607] (-) TimerEvent: {}
+[8.521874] (-) TimerEvent: {}
+[8.622169] (-) TimerEvent: {}
+[8.722453] (-) TimerEvent: {}
+[8.736031] (rover_cpp) StdoutLine: {'line': b'[100%] Built target follow_path_node\n'}
+[8.746093] (rover_cpp) CommandEnded: {'returncode': 0}
+[8.774413] (rover_cpp) JobProgress: {'identifier': 'rover_cpp', 'progress': 'install'}
+[8.782990] (rover_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'], 'cwd': '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'saleheen_linux'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11'), ('HOME', '/home/saleheen_linux'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin'), ('NVM_INC', '/home/saleheen_linux/.nvm/versions/node/v22.8.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('SYSTEMD_EXEC_PID', '5641'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/saleheen_linux/.nvm'), ('COLCON_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'saleheen_linux'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'saleheen_linux'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':home/saleheen_linux/others/gazebo_models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/saleheen_linux/.nvm/versions/node/v22.8.0/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/saleheen_linux/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/saleheen_linux/.local/share/JetBrains/Toolbox/scripts'), ('SESSION_MANAGER', 'local/saleheen-ROG-Linux:@/tmp/.ICE-unix/2759,unix/saleheen-ROG-Linux:/tmp/.ICE-unix/2759'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/69a10a75_4fe7_4ec6_97cf_02fd79b516b8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', ':/usr/share/gazebo-11'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-17-openjdk-amd64'), ('PWD', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/cpp_pubsub:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/opt/ros/humble')]), 'shell': False}
+[8.790390] (rover_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.790550] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/obs_avoidance_node\n'}
+[8.790804] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_path_node\n'}
+[8.796334] (rover_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/follow_path_node" to ""\n'}
+[8.796455] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/linear_velocity_publisher\n'}
+[8.796581] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp\n'}
+[8.796681] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/follow_wall_cpp.hpp\n'}
+[8.796768] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/obs_avoidance_cpp.hpp\n'}
+[8.796844] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/package_run_dependencies/rover_cpp\n'}
+[8.796901] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/parent_prefix_path/rover_cpp\n'}
+[8.796956] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/ament_prefix_path.sh\n'}
+[8.797001] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/ament_prefix_path.dsv\n'}
+[8.797045] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/path.sh\n'}
+[8.797121] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/path.dsv\n'}
+[8.797168] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.bash\n'}
+[8.797214] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.sh\n'}
+[8.797257] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.zsh\n'}
+[8.797300] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/local_setup.dsv\n'}
+[8.797344] (rover_cpp) StdoutLine: {'line': b'-- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/package.dsv\n'}
+[8.797405] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/packages/rover_cpp\n'}
+[8.797497] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig.cmake\n'}
+[8.797549] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig-version.cmake\n'}
+[8.797591] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/package.xml\n'}
+[8.797639] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf\n'}
+[8.797680] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/rover_cpp.urdf\n'}
+[8.797719] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/config.rviz\n'}
+[8.797758] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds\n'}
+[8.797795] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds/blocks.sdf\n'}
+[8.797833] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch\n'}
+[8.797870] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/2_gazebo.launch.py\n'}
+[8.797913] (rover_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/1_rviz.launch.py\n'}
+[8.799283] (rover_cpp) CommandEnded: {'returncode': 0}
+[8.822526] (-) TimerEvent: {}
+[8.839275] (rover_cpp) JobEnded: {'identifier': 'rover_cpp', 'rc': 0}
+[8.839762] (-) EventReactorShutdown: {}

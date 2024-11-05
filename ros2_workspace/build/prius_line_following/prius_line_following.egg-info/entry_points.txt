@@ -1,0 +1,3 @@
+[console_scripts]
+prius_line_follower = prius_line_following:main
+
