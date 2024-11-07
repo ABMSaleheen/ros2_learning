@@ -10,6 +10,8 @@ setup.py
 ../../build/prius_line_following/prius_line_following.egg-info/zip-safe
 launch/car_on_track.launch.py
 prius_line_following/__init__.py
+prius_line_following/line_following.py
+prius_line_following/video_save.py
 resource/prius_line_following
 test/test_copyright.py
 test/test_flake8.py

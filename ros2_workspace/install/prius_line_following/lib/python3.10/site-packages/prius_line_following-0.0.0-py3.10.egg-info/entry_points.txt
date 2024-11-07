@@ -1,3 +1,4 @@
 [console_scripts]
-prius_line_follower = prius_line_following:main
+prius_line_follower = prius_line_following.line_following:main
+video_saver = prius_line_following.video_save:main
 

@@ -28,7 +28,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'prius_line_follower = prius_line_following:main'
+            'video_saver = prius_line_following.video_save:main',
+            'prius_line_follower = prius_line_following.line_following:main'
+
         ],
     },
 )
