@@ -1,0 +1,392 @@
+<sdf version='1.7'>
+  <model name='rover_proto_A1'>
+    <link name='Chassis'>
+      <inertial>
+        <pose>-0.003619 -4e-06 -0.025334 0 -0 0</pose>
+        <mass>18.0919</mass>
+        <inertia>
+          <ixx>0.190571</ixx>
+          <ixy>-3.70553e-06</ixy>
+          <ixz>0.00402853</ixz>
+          <iyy>1.55584</iyy>
+          <iyz>-8.33152e-06</iyz>
+          <izz>1.731</izz>
+        </inertia>
+      </inertial>
+      <collision name='Chassis_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Chassis.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Camera_Back_Link_collision_1'>
+        <pose>-0.50128 0 0.046965 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Camera_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Camera_Fwd_Link_collision_2'>
+        <pose>0.49872 0 0.046965 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Camera_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lidar_Back_Link_collision_3'>
+        <pose>-0.34128 0 0.166 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lidar_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lidar_Fwd_Link_collision_4'>
+        <pose>0.33872 0 0.116 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lidar_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lights_Back_Link_collision_5'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lights_Fwd_Link_collision_6'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lights_Left_Link_collision_7'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Left_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <collision name='Chassis_fixed_joint_lump__Lights_Right_Link_collision_8'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Right_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Chassis_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Chassis.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Camera_Back_Link_visual_1'>
+        <pose>-0.50128 0 0.046965 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Camera_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Camera_Fwd_Link_visual_2'>
+        <pose>0.49872 0 0.046965 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Camera_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lidar_Back_Link_visual_3'>
+        <pose>-0.34128 0 0.166 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lidar_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lidar_Fwd_Link_visual_4'>
+        <pose>0.33872 0 0.116 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lidar_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lights_Back_Link_visual_5'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Back_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lights_Fwd_Link_visual_6'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Fwd_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lights_Left_Link_visual_7'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Left_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name='Chassis_fixed_joint_lump__Lights_Right_Link_visual_8'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Lights_Right_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='Wheel_1_Joint' type='revolute'>
+      <pose relative_to='Chassis'>0.34872 -0.215 -0.04 1.5708 -0 0</pose>
+      <parent>Chassis</parent>
+      <child>Wheel_1_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>10</effort>
+          <velocity>12</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.25</damping>
+          <friction>0.5</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Wheel_1_Link'>
+      <pose relative_to='Wheel_1_Joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 -0 -0.016853 0 -0 0</pose>
+        <mass>0.456818</mass>
+        <inertia>
+          <ixx>0.000768197</ixx>
+          <ixy>4.1359e-21</ixy>
+          <ixz>-4.91914e-19</ixz>
+          <iyy>0.000768197</iyy>
+          <iyz>2.33003e-19</iyz>
+          <izz>0.00134492</izz>
+        </inertia>
+      </inertial>
+      <collision name='Wheel_1_Link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_1_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Wheel_1_Link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_1_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='Wheel_2_Joint' type='revolute'>
+      <pose relative_to='Chassis'>0.34872 0.21499 -0.04 1.5708 -0 0</pose>
+      <parent>Chassis</parent>
+      <child>Wheel_2_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>10</effort>
+          <velocity>12</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.25</damping>
+          <friction>0.5</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Wheel_2_Link'>
+      <pose relative_to='Wheel_2_Joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 0 0.016853 0 -0 0</pose>
+        <mass>0.456818</mass>
+        <inertia>
+          <ixx>0.000768197</ixx>
+          <ixy>1.02115e-18</ixy>
+          <ixz>-7.60711e-19</ixz>
+          <iyy>0.000768197</iyy>
+          <iyz>3.64043e-19</iyz>
+          <izz>0.00134492</izz>
+        </inertia>
+      </inertial>
+      <collision name='Wheel_2_Link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Wheel_2_Link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_2_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='Wheel_3_Joint' type='revolute'>
+      <pose relative_to='Chassis'>-0.35128 0.21499 -0.04 1.5708 -0 0</pose>
+      <parent>Chassis</parent>
+      <child>Wheel_3_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>10</effort>
+          <velocity>12</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.25</damping>
+          <friction>0.5</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Wheel_3_Link'>
+      <pose relative_to='Wheel_3_Joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0 -0 0.016853 0 -0 0</pose>
+        <mass>0.456818</mass>
+        <inertia>
+          <ixx>0.000768197</ixx>
+          <ixy>-1.88597e-19</ixy>
+          <ixz>-4.93382e-19</ixz>
+          <iyy>0.000768197</iyy>
+          <iyz>-2.11063e-19</iyz>
+          <izz>0.00134492</izz>
+        </inertia>
+      </inertial>
+      <collision name='Wheel_3_Link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_3_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Wheel_3_Link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_3_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+    <joint name='Wheel_4_Joint' type='revolute'>
+      <pose relative_to='Chassis'>-0.35128 -0.215 -0.04 1.5708 -0 0</pose>
+      <parent>Chassis</parent>
+      <child>Wheel_4_Link</child>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <effort>10</effort>
+          <velocity>12</velocity>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.25</damping>
+          <friction>0.5</friction>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='Wheel_4_Link'>
+      <pose relative_to='Wheel_4_Joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0 0 -0.016853 0 -0 0</pose>
+        <mass>0.456818</mass>
+        <inertia>
+          <ixx>0.000768197</ixx>
+          <ixy>-7.84271e-19</ixy>
+          <ixz>-6.61935e-19</ixz>
+          <iyy>0.000768197</iyy>
+          <iyz>-2.6149e-19</iyz>
+          <izz>0.00134492</izz>
+        </inertia>
+      </inertial>
+      <collision name='Wheel_4_Link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_4_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='Wheel_4_Link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://warehouse_rover_ros2/urdf/meshes/Wheel_4_Link.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

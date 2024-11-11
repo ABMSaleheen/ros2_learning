@@ -16,6 +16,14 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*')),
         (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.urdf')),
+        
+       # (os.path.join('share', package_name, 'urdf', 'prius_hybrid'), glob('urdf/prius_hybrid/*.rviz') + glob('urdf/prius_hybrid/*.sdf') + glob('urdf/prius_hybrid/*.config')),
+        #(os.path.join('share', package_name, 'urdf', 'prius_hybrid','materials','textures'), glob('urdf/prius_hybrid/materials/textures/*')),
+       # (os.path.join('share', package_name, 'urdf', 'prius_hybrid', 'meshes'), glob('urdf/prius_hybrid/meshes/*')),
+        
+        
+        #(os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
+        # (os.path.join('share', package_name, 'urdf'), glob('urdf/**/*', recursive=True)),
         # (os.path.join('lib', package_name), glob('scripts/*')),   
 
     ],

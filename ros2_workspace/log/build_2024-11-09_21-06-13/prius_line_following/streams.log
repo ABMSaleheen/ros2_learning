@@ -1,0 +1,26 @@
+[0.741s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/prius_line_following': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_line_following build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log --single-version-externally-managed install_data
+[0.935s] running egg_info
+[0.935s] writing ../../build/prius_line_following/prius_line_following.egg-info/PKG-INFO
+[0.935s] writing dependency_links to ../../build/prius_line_following/prius_line_following.egg-info/dependency_links.txt
+[0.935s] writing entry points to ../../build/prius_line_following/prius_line_following.egg-info/entry_points.txt
+[0.936s] writing requirements to ../../build/prius_line_following/prius_line_following.egg-info/requires.txt
+[0.936s] writing top-level names to ../../build/prius_line_following/prius_line_following.egg-info/top_level.txt
+[0.937s] reading manifest file '../../build/prius_line_following/prius_line_following.egg-info/SOURCES.txt'
+[0.938s] writing manifest file '../../build/prius_line_following/prius_line_following.egg-info/SOURCES.txt'
+[0.938s] running build
+[0.938s] running build_py
+[0.938s] copying prius_line_following/line_following.py -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build/lib/prius_line_following
+[0.939s] running install
+[0.939s] running install_lib
+[0.939s] copying /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build/lib/prius_line_following/line_following.py -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following
+[0.940s] byte-compiling /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following/line_following.py to line_following.cpython-310.pyc
+[0.941s] running install_data
+[0.941s] copying launch/rviz.launch.py -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/launch
+[0.941s] running install_egg_info
+[0.942s] removing '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info' (and everything under it)
+[0.943s] Copying ../../build/prius_line_following/prius_line_following.egg-info to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info
+[0.944s] running install_scripts
+[0.959s] Installing prius_line_follower script to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/prius_line_following
+[0.959s] Installing video_saver script to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/prius_line_following
+[0.959s] writing list of installed files to '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log'
+[0.990s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/prius_line_following' returned '0': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_line_following build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log --single-version-externally-managed install_data

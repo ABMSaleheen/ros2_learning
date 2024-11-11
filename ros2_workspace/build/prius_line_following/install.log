@@ -7,8 +7,17 @@
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/ament_index/resource_index/packages/prius_line_following
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/package.xml
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/launch/car_on_track.launch.py
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/launch/rviz.launch.py
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/worlds/prius_on_track.world
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/config.rviz
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/model.sdf
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/model.config
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/materials/textures/Wheels3.png
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/materials/textures/Hybrid_Interior.png
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/materials/textures/Hybrid.png
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/meshes/Hybrid.mtl
+/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid/meshes/Hybrid.obj
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info/requires.txt
 /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info/PKG-INFO

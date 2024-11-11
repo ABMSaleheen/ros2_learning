@@ -1,0 +1,19 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover/lib/python3.10/site-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/px4_ros_com/local/lib/python3.10/dist-packages",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

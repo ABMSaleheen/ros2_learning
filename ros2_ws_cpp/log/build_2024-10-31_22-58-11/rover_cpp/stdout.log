@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target follow_wall_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/obs_avoidance_node.dir/src/obs_avoidance_cpp.cpp.o[0m
-[ 50%] Built target follow_wall_node
-[ 83%] Built target linear_velocity_publisher

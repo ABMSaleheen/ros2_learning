@@ -61,10 +61,6 @@ install(DIRECTORY include/
 )
 
 
-
-
-ament_package()
-
 # Install URDF files
 install(DIRECTORY urdf
   DESTINATION share/${PROJECT_NAME}
@@ -79,4 +75,8 @@ install(DIRECTORY worlds
 install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
+
+
+
+ament_package()
 

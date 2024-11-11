@@ -1,0 +1,23 @@
+[0.478s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/prius_line_following': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_line_following build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log --single-version-externally-managed install_data
+[0.668s] running egg_info
+[0.669s] writing ../../build/prius_line_following/prius_line_following.egg-info/PKG-INFO
+[0.669s] writing dependency_links to ../../build/prius_line_following/prius_line_following.egg-info/dependency_links.txt
+[0.669s] writing entry points to ../../build/prius_line_following/prius_line_following.egg-info/entry_points.txt
+[0.669s] writing requirements to ../../build/prius_line_following/prius_line_following.egg-info/requires.txt
+[0.669s] writing top-level names to ../../build/prius_line_following/prius_line_following.egg-info/top_level.txt
+[0.670s] reading manifest file '../../build/prius_line_following/prius_line_following.egg-info/SOURCES.txt'
+[0.671s] writing manifest file '../../build/prius_line_following/prius_line_following.egg-info/SOURCES.txt'
+[0.671s] running build
+[0.671s] running build_py
+[0.671s] running install
+[0.672s] running install_lib
+[0.672s] running install_data
+[0.673s] copying urdf/prius_hybrid/model.sdf -> /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/share/prius_line_following/urdf/prius_hybrid
+[0.673s] running install_egg_info
+[0.674s] removing '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info' (and everything under it)
+[0.674s] Copying ../../build/prius_line_following/prius_line_following.egg-info to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages/prius_line_following-0.0.0-py3.10.egg-info
+[0.675s] running install_scripts
+[0.688s] Installing prius_line_follower script to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/prius_line_following
+[0.689s] Installing video_saver script to /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/prius_line_following
+[0.689s] writing list of installed files to '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log'
+[0.705s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/src/prius_line_following' returned '0': PYTHONPATH=/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/prius_line_following build --build-base /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/build install --record /home/saleheen_linux/others/ros_2_Learning/ros2_workspace/build/prius_line_following/install.log --single-version-externally-managed install_data

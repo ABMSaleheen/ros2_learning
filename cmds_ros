@@ -15,3 +15,12 @@ In setup.py - launch and urdf folders should be added using os.
     
 Before running a launch file need source: source ~/ros2_workspace/install/setup.bash
 
+####find a file in pc
+sudo find / -name "libLedPlugin.so" 2>/dev/null
+
+colcon build --packages-select warehouse_rover_ros2 --cmake-clean-cache
+
+colcon build --packages-select warehouse_rover_ros2 --cmake-clean-first
+
+
+

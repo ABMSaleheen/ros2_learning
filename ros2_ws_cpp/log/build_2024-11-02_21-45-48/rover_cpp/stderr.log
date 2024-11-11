@@ -1,9 +1,0 @@
-[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:97:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 4 of ‘[01m[Kvoid FollowPathNode::proportional_controller(float, float, float, std::string)[m[K’
-  113 |     void proportional_controller(float wall_proximity, float kp=1.0, float kd= 1.0, [01;31m[Kstd::string side[m[K){
-      |                                                                                     [01;31m[K~~~~~~~~~~~~^~~~[m[K
-[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/src/follow_path_cpp.cpp:113:62:[m[K [01;36m[Knote: [m[K...following parameter 2 which has a default argument
-  113 |     void proportional_controller(float wall_proximity, [01;36m[Kfloat kp=1.0[m[K, float kd= 1.0, std::string side){
-      |                                                        [01;36m[K~~~~~~^~~~~~[m[K
-gmake[2]: *** [CMakeFiles/follow_path_node.dir/build.make:76: CMakeFiles/follow_path_node.dir/src/follow_path_cpp.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/follow_path_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -3,6 +3,11 @@
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/lib/rover_cpp/linear_velocity_publisher
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/follow_wall_cpp.hpp
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/rover_cpp/obs_avoidance_cpp.hpp
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/rover_cpp.urdf
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/config.rviz
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds/blocks.sdf
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/2_gazebo.launch.py
+/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/1_rviz.launch.py
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/package_run_dependencies/rover_cpp
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/ament_index/resource_index/parent_prefix_path/rover_cpp
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/environment/ament_prefix_path.sh
@@ -18,8 +23,3 @@
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig.cmake
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/cmake/rover_cppConfig-version.cmake
 /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/package.xml
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/rover_cpp.urdf
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/urdf/config.rviz
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/worlds/blocks.sdf
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/2_gazebo.launch.py
-/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/share/rover_cpp/launch/1_rviz.launch.py

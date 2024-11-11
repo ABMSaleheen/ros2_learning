@@ -9,6 +9,7 @@ setup.py
 ../../build/prius_line_following/prius_line_following.egg-info/top_level.txt
 ../../build/prius_line_following/prius_line_following.egg-info/zip-safe
 launch/car_on_track.launch.py
+launch/rviz.launch.py
 prius_line_following/__init__.py
 prius_line_following/line_following.py
 prius_line_following/video_save.py
@@ -16,4 +17,16 @@ resource/prius_line_following
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/prius_hybrid/config.rviz
+urdf/prius_hybrid/model.config
+urdf/prius_hybrid/model.sdf
+urdf/prius_hybrid/materials/textures/Hybrid.png
+urdf/prius_hybrid/materials/textures/Hybrid_Interior.png
+urdf/prius_hybrid/materials/textures/Wheels3.png
+urdf/prius_hybrid/meshes/Hybrid.mtl
+urdf/prius_hybrid/meshes/Hybrid.obj
+urdf/road/model.config
+urdf/road/model.sdf
+urdf/road/materials/scripts/road.material
+urdf/road/materials/scripts/road.png
 worlds/prius_on_track.world

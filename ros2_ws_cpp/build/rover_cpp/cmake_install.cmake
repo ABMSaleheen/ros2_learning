@@ -107,6 +107,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/urdf")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/worlds")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/launch")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/rover_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rover_cpp")
 endif()
 
@@ -163,18 +175,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE FILE FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/package.xml")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/urdf")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/worlds")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rover_cpp" TYPE DIRECTORY FILES "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

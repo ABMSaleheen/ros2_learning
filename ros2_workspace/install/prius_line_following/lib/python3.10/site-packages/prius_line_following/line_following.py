@@ -74,31 +74,6 @@ class Line_Detection_And_Following(Node):
             edge = self.prev_edge
 
 
-            # self.prev_edge.clear()
-
-                # print("prev edge",self.prev_edge)
-                # print("edge", edge)
-
-                
-            
-
-        #         ## We only need two points # one from left line # second from right line 
-        # # When values are 4
-        # if(len(edge)==4):
-        #     edge[0]=edge[0]
-        #     edge[1]=edge[2]
-        # ## When Values are 3 and if they are 2 we donot need to process them
-        # ## If the values of pixels is greater then 5 then they are adjecent to eachother
-        # if(len(edge)==3):
-        #     for i in range(len(edge)):
-        #         if(edge[1]-edge[0] > 5): ## meaning idx(0) and idx(1) are ok [193, 506, 507 ]
-        #             edge[0]=edge[0]
-        #             edge[1]=edge[1]
-        #         else:#[193, 194, 507 ]
-        #             edge[0]=edge[0]
-        #             edge[1]=edge[2]
-
-
 
         print("edge to track",edge)
 

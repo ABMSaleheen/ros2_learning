@@ -166,8 +166,6 @@
     
 
 
-
-
     <link name="camera">
         <inertial>
                 <mass value="0.5" />
@@ -192,50 +190,49 @@
         </collision>
       </link>
     
-      <joint name="camera_joint" type="fixed">
+    <joint name="camera_joint" type="fixed">
         <origin xyz="-0.35 0 0.15" rpy="0 0.0 3.14"/>
         <parent link="chassis"/>
         <child link="camera"/>
         <axis xyz="0.0 0.0 1.0"/>
-    
-      </joint>
+    </joint>
 
 
 
 
-      <link name="lidar">
+    <link name="lidar">
         <inertial>
                 <mass value="0.5" />
                 <inertia ixx="0.01" ixy="0.0" ixz="0" 
                 iyy="0.01" iyz="0" izz="0.01" />
         </inertial>
-    
+
         <visual>
-          <geometry>
+            <geometry>
             <cylinder radius="0.1" length="0.1"/>
-          </geometry>
-          <material name="red">
+            </geometry>
+            <material name="red">
             <color rgba="1 0 0  1"/>
-          </material>
+            </material>
         </visual>
-    
+
         <collision>
-          <geometry>
+            <geometry>
             <cylinder radius="0.1" length="0.1"/>
-          </geometry>
+            </geometry>
         </collision>
-      </link>
-    
-      <joint name="lidar_joint" type="fixed">
+    </link>
+
+    <joint name="lidar_joint" type="fixed">
         <origin xyz="-0.43 0 0.0" rpy="0 0.0 1.57"/>
         <parent link="chassis"/>
         <child link="lidar"/>
         <axis xyz="0.0 0.0 1.0"/>
-    
-      </joint>
+
+    </joint>
     
 
-      <gazebo>
+    <gazebo>
         <plugin name='diff_drive_front' filename='libgazebo_ros_diff_drive.so'>
             <left_joint>wheel_front_left_joint</left_joint>
             <right_joint>wheel_front_right_joint</right_joint>
@@ -250,7 +247,6 @@
 
             <odometry_frame>base_footprint</odometry_frame>
             <robot_base_frame>chassis</robot_base_frame>
-
         </plugin>
 
         <plugin name='diff_drive_back' filename='libgazebo_ros_diff_drive.so'>
@@ -267,9 +263,8 @@
 
             <odometry_frame>base_footprint</odometry_frame>
             <robot_base_frame>chassis</robot_base_frame>
-
         </plugin>
-      </gazebo>
+    </gazebo>
 
 
 <!-- CAMERAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
@@ -312,6 +307,7 @@
         <sensor name="gazebo_lidar" type="ray">
         <visualize>true</visualize>
         <update_rate>12.0</update_rate>
+
         <plugin filename="libgazebo_ros_ray_sensor.so" name="gazebo_lidar">
         <ros>
             <remapping>~/out:=scan</remapping>
