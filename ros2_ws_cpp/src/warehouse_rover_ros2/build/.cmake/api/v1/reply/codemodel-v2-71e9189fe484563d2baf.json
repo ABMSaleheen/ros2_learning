@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-7f16a3bd1af0b10b4533.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "warehouse_rover_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "autonomous_driving_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonomous_driving_node-Debug-86f8d1a1aca051fbd466.json",
+					"name" : "autonomous_driving_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-c24eed0fa702a89fcef6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "video_save_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-video_save_node-Debug-bff343b55510742f2ab3.json",
+					"name" : "video_save_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "warehouse_rover_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-warehouse_rover_ros2_uninstall-Debug-8e69bbfabed23d085c51.json",
+					"name" : "warehouse_rover_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/build",
+		"source" : "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

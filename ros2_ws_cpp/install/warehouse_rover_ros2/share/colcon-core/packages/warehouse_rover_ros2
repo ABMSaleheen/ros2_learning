@@ -1,1 +1,1 @@
-ament_cmake:geometry_msgs:nav_msgs:rclcpp:sensor_msgs:std_msgs
+ament_cmake:cv_bridge:geometry_msgs:nav_msgs:opencv:rclcpp:sensor_msgs:std_msgs

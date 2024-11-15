@@ -1,0 +1,29 @@
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:42:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   42 |     }
+      |      [01;31m[K^[m[K
+      |      [32m[K;[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In constructor ‘[01m[KAutonmousDrivingNode::AutonmousDrivingNode()[m[K’:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvid_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   33 |         [01;31m[Kvid_subscriber[m[K = this->create_subscription<sensor_msgs::msg::Image>("/camera_scan_fwd/image_raw",20,
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_subscribers[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:34:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_process_callback[m[K’ is not a member of ‘[01m[KAutonmousDrivingNode[m[K’
+   34 |             std::bind(&AutonmousDrivingNode::[01;31m[Kimage_process_callback[m[K, this, std::placeholders::_1));
+      |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:22:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfps[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   22 |         double [01;35m[Kfps[m[K = 40.0;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:23:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmid_pt_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |         double [01;35m[Kmid_pt_error[m[K = 0.0;
+      |                [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K At global scope:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:44:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+   44 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:73:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   73 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving_node.dir/build.make:76: CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/autonomous_driving_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

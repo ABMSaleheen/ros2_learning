@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2 -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target video_save_node[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving_node[0m
+[0.067s] [ 50%] Built target video_save_node
+[0.087s] [ 75%] [32mBuilding CXX object CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o[0m
+[5.743s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In constructor ‘[01m[KAutonmousDrivingNode::AutonmousDrivingNode()[m[K’:
+[5.743s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:22:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfps[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.743s]    22 |         double [01;35m[Kfps[m[K = 40.0;
+[5.743s]       |                [01;35m[K^~~[m[K
+[5.743s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:23:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmid_pt_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.743s]    23 |         double [01;35m[Kmid_pt_error[m[K = 0.0;
+[5.743s]       |                [01;35m[K^~~~~~~~~~~~[m[K
+[5.752s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonmousDrivingNode::image_process_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.752s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:60:17:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+[5.752s]    60 |             if ([01;31m[KwaitKey[m[K(1) == 27){
+[5.752s]       |                 [01;31m[K^~~~~~~[m[K
+[5.752s]       |                 [32m[Kcv::waitKey[m[K
+[5.752s] In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[5.752s]                  from [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:7[m[K:
+[5.753s] [01m[K/usr/include/opencv4/opencv2/highgui.hpp:363:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+[5.753s]   363 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+[5.753s]       |                  [01;36m[K^~~~~~~[m[K
+[5.753s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:62:17:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[5.753s]    62 |                 [01;31m[Kbreak[m[K;
+[5.753s]       |                 [01;31m[K^~~~~[m[K
+[8.911s] gmake[2]: *** [CMakeFiles/autonomous_driving_node.dir/build.make:76: CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o] Error 1
+[8.911s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/autonomous_driving_node.dir/all] Error 2
+[8.912s] gmake: *** [Makefile:146: all] Error 2
+[8.914s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2 -- -j16 -l16

@@ -1,0 +1,4 @@
+source;share/warehouse_rover_ros2/local_setup.bash
+source;share/warehouse_rover_ros2/local_setup.dsv
+source;share/warehouse_rover_ros2/local_setup.sh
+source;share/warehouse_rover_ros2/local_setup.zsh

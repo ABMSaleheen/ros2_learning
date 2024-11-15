@@ -7,8 +7,8 @@ from launch.actions import ExecuteProcess
 
 def generate_launch_description():
     package_dir = get_package_share_directory('warehouse_rover_ros2')  # pkg dir after building in install/share
-    urdf = os.path.join(package_dir,'urdf', 'rover_proto_A1.urdf')   # urdf is saved here in install/share after build
-    
+    urdf = os.path.join(package_dir,'urdf','rover_proto_A1','rover_proto_A1_rviz.urdf') 
+
     # rviz_config_file=os.path.join(package_dir, 'urdf', 'config.rviz') # config.rviz is saved here in install/share after build
     
     # print("pkg rover location:",urdf)
@@ -58,7 +58,7 @@ def generate_launch_description():
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
-            arguments=["-topic", "/robot_description", "-entity", "rover_proto_A1"],
+            arguments=["-topic", "/robot_description", "-entity", "rover_proto_A1_rviz"],
             name='urdf_spawner',
             output='screen', 
             

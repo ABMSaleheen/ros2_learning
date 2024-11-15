@@ -1,0 +1,71 @@
+[0.010s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_py:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2 -- -j16 -l16
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving_node[0m
+[0.062s] [ 50%] Built target video_save_node
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o[0m
+[5.728s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonmousDrivingNode::image_process_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.728s] [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:97:65:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Ksigned char[m[K’ changes value from ‘[01m[K255[m[K’ to ‘[01m[K-1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[5.728s]    97 |     cropped_canny.at<int8_t>(row_of_interest, mid_point_edge) = [01;35m[K255[m[K;
+[5.729s]       |                                                                 [01;35m[K^~~[m[K
+[11.360s] [100%] [32m[1mLinking CXX executable autonomous_driving_node[0m
+[11.866s] [100%] Built target autonomous_driving_node
+[11.876s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_py:/opt/ros/humble /usr/bin/cmake --build /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2 -- -j16 -l16
+[11.912s] Invoking command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_py:/opt/ros/humble /usr/bin/cmake --install /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2
+[11.919s] -- Install configuration: ""
+[11.919s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/lib/warehouse_rover_ros2/video_save_node
+[11.919s] -- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/lib/warehouse_rover_ros2/autonomous_driving_node
+[11.923s] -- Set runtime path of "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/lib/warehouse_rover_ros2/autonomous_driving_node" to ""
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/include/warehouse_rover_ros2
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/include/warehouse_rover_ros2/warehouse_rover_ros2
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/model.config
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/materials
+[11.923s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/materials/scripts
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/materials/scripts/track_1.material
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/materials/scripts/track_1.png
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/materials/textures
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/track_1/model.sdf
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lights_Fwd_Link.STL
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Camera_Back_Link.dae
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Wheel_2_Link.STL
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Chassis.STL
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Chassis.dae
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lights_Back_Link.STL
+[11.924s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Wheel_3_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Camera_Fwd_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lidar_Back_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lights_Left_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lights_Right_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Lidar_Fwd_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Wheel_4_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Camera_Back_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/meshes/Wheel_1_Link.STL
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/rover_proto_A1_rviz.urdf
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/config
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/config/joint_names_rover_assembly_vA.yaml
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/config.rviz
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/textures
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/urdf/rover_proto_A1/rover_proto_A1.urdf
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/worlds
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/worlds/track_1.world
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/launch
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/launch/gazebo.launch.py
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/launch/rviz.launch.py
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/ament_index/resource_index/package_run_dependencies/warehouse_rover_ros2
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/ament_index/resource_index/parent_prefix_path/warehouse_rover_ros2
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/environment/ament_prefix_path.sh
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/environment/ament_prefix_path.dsv
+[11.925s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/environment/path.sh
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/environment/path.dsv
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/local_setup.bash
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/local_setup.sh
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/local_setup.zsh
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/local_setup.dsv
+[11.926s] -- Installing: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/package.dsv
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/ament_index/resource_index/packages/warehouse_rover_ros2
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/cmake/warehouse_rover_ros2Config.cmake
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/cmake/warehouse_rover_ros2Config-version.cmake
+[11.926s] -- Up-to-date: /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/share/warehouse_rover_ros2/package.xml
+[11.926s] Invoked command in '/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/rover:/home/saleheen_linux/others/ros_2_Learning/ros2_workspace/install/prius_line_following:/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_py:/opt/ros/humble /usr/bin/cmake --install /home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/build/warehouse_rover_ros2

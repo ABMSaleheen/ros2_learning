@@ -197,6 +197,80 @@ warehouse_rover_ros2_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/warehouse_rover_ros2_uninstall.dir/build.make CMakeFiles/warehouse_rover_ros2_uninstall.dir/build
 .PHONY : warehouse_rover_ros2_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named video_save_node
+
+# Build rule for target.
+video_save_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 video_save_node
+.PHONY : video_save_node
+
+# fast build rule for target.
+video_save_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_save_node.dir/build.make CMakeFiles/video_save_node.dir/build
+.PHONY : video_save_node/fast
+
+#=============================================================================
+# Target rules for targets named autonomous_driving_node
+
+# Build rule for target.
+autonomous_driving_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 autonomous_driving_node
+.PHONY : autonomous_driving_node
+
+# fast build rule for target.
+autonomous_driving_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_driving_node.dir/build.make CMakeFiles/autonomous_driving_node.dir/build
+.PHONY : autonomous_driving_node/fast
+
+src/autonomous_driving.o: src/autonomous_driving.cpp.o
+.PHONY : src/autonomous_driving.o
+
+# target to build an object file
+src/autonomous_driving.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_driving_node.dir/build.make CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o
+.PHONY : src/autonomous_driving.cpp.o
+
+src/autonomous_driving.i: src/autonomous_driving.cpp.i
+.PHONY : src/autonomous_driving.i
+
+# target to preprocess a source file
+src/autonomous_driving.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_driving_node.dir/build.make CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.i
+.PHONY : src/autonomous_driving.cpp.i
+
+src/autonomous_driving.s: src/autonomous_driving.cpp.s
+.PHONY : src/autonomous_driving.s
+
+# target to generate assembly for a file
+src/autonomous_driving.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/autonomous_driving_node.dir/build.make CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.s
+.PHONY : src/autonomous_driving.cpp.s
+
+src/video_save.o: src/video_save.cpp.o
+.PHONY : src/video_save.o
+
+# target to build an object file
+src/video_save.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_save_node.dir/build.make CMakeFiles/video_save_node.dir/src/video_save.cpp.o
+.PHONY : src/video_save.cpp.o
+
+src/video_save.i: src/video_save.cpp.i
+.PHONY : src/video_save.i
+
+# target to preprocess a source file
+src/video_save.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_save_node.dir/build.make CMakeFiles/video_save_node.dir/src/video_save.cpp.i
+.PHONY : src/video_save.cpp.i
+
+src/video_save.s: src/video_save.cpp.s
+.PHONY : src/video_save.s
+
+# target to generate assembly for a file
+src/video_save.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/video_save_node.dir/build.make CMakeFiles/video_save_node.dir/src/video_save.cpp.s
+.PHONY : src/video_save.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +286,14 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... warehouse_rover_ros2_uninstall"
+	@echo "... autonomous_driving_node"
+	@echo "... video_save_node"
+	@echo "... src/autonomous_driving.o"
+	@echo "... src/autonomous_driving.i"
+	@echo "... src/autonomous_driving.s"
+	@echo "... src/video_save.o"
+	@echo "... src/video_save.i"
+	@echo "... src/video_save.s"
 .PHONY : help
 
 

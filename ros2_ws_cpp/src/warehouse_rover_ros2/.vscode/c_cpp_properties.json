@@ -6,16 +6,24 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/**",
         "/opt/ros/humble/include/**",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/warehouse_rover_ros2/include/**",  
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/cpp_pubsub/include/**",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/px4_ros_com/include/**",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/rover_cpp/include/**",
         "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/include/**",
+        "/usr/include/opencv4/**",           // OpenCV include path
+        "/usr/local/include/**",   
         "/usr/include/**"
+       
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",
       "compilerPath": "/usr/bin/gcc",
       "cStandard": "gnu11",
-      "cppStandard": "c++14"
+      "cppStandard": "c++17",
+      "configurationProvider": "ms-vscode.cmake-tools" , // Important. Fixed auto completions
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json"
     }
   ],
   "version": 4

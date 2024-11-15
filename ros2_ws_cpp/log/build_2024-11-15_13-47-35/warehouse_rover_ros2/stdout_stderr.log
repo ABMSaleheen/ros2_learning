@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving_node[0m
+[ 50%] Built target video_save_node
+[ 75%] [32mBuilding CXX object CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o[0m
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In constructor ‘[01m[KAutonmousDrivingNode::AutonmousDrivingNode()[m[K’:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:25:11:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat mid_pt_error[m[K’
+   25 |     float [01;31m[Kmid_pt_error[m[K = 0.0f;
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:24:11:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat mid_pt_error[m[K’ previously declared here
+   24 |     float [01;36m[Kmid_pt_error[m[K = 0.0f;
+      |           [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:24:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmid_pt_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+gmake[2]: *** [CMakeFiles/autonomous_driving_node.dir/build.make:76: CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/autonomous_driving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

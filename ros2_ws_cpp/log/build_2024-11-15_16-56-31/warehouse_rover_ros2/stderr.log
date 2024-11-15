@@ -1,0 +1,7 @@
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kfloat AutonmousDrivingNode::PID_control(float, float, float, float, float)[m[K’:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:140:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kki[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  140 |   float PID_control(float ref_point, float current_state, float kp,[01;35m[Kfloat ki[m[K,float kd){
+      |                                                                    [01;35m[K~~~~~~^~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:140:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kkd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  140 |   float PID_control(float ref_point, float current_state, float kp,float ki,[01;35m[Kfloat kd[m[K){
+      |                                                                             [01;35m[K~~~~~~^~[m[K

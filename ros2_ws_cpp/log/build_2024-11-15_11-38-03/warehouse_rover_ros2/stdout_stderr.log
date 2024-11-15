@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving_node[0m
+[ 50%] Built target video_save_node
+[ 75%] [32mBuilding CXX object CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o[0m
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In constructor ‘[01m[KAutonmousDrivingNode::AutonmousDrivingNode()[m[K’:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:23:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmid_pt_error[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   23 |     double [01;35m[Kmid_pt_error[m[K = 0.0;
+      |            [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonmousDrivingNode::image_process_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:63:25:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Knc::NdArray<double> edge[m[K’
+   63 |     nc::NdArray<double> [01;31m[Kedge[m[K= {};
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:37:25:[m[K [01;36m[Knote: [m[K‘[01m[Knc::NdArray<double> edge[m[K’ previously declared here
+   37 |     nc::NdArray<double> [01;36m[Kedge[m[K;
+      |                         [01;36m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:6[m[K:
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:68:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   68 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"column: %d and pixel value- %d"[m[K, col, [32m[Kcropped_canny.at<double>(row_of_interest,col)[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                      [32m[K|[m[K
+      |                                                                                                      [32m[Kdouble[m[K
+[01m[K/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/src/autonomous_driving.cpp:68:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   68 | LCPP_INFO(this->get_logger(), "column: %d and pixel value- [01;36m[K%d[m[K", col, cropped_canny.at<double>(row_of_interest,col));
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kint[m[K
+      |                                                            [32m[K%f[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving_node.dir/build.make:76: CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/autonomous_driving_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

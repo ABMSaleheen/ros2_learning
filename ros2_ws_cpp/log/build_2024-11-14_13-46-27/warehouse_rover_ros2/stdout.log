@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target video_save_node[0m
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving_node[0m
+[ 50%] Built target video_save_node
+[ 75%] [32mBuilding CXX object CMakeFiles/autonomous_driving_node.dir/src/autonomous_driving.cpp.o[0m

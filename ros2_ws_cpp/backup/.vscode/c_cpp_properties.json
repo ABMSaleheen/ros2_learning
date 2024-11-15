@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "/usr/include/opencv4" ],
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/install/rover_cpp/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/saleheen_linux/others/ros_2_Learning/ros2_ws_cpp/src/warehouse_rover_ros2/include/**",
+        "/usr/include/**",
+        "/usr/include/opencv4",
+        "/usr/local/include/NumCpp.hpp"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+      
+    }
+  ],
+  "version": 4
+}
